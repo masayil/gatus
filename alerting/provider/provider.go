@@ -19,6 +19,7 @@ import (
 	"github.com/TwiN/gatus/v5/alerting/provider/teams"
 	"github.com/TwiN/gatus/v5/alerting/provider/telegram"
 	"github.com/TwiN/gatus/v5/alerting/provider/twilio"
+	"github.com/TwiN/gatus/v5/alerting/provider/wecom"
 	"github.com/TwiN/gatus/v5/core"
 )
 
@@ -75,4 +76,5 @@ var (
 	_ AlertProvider = (*teams.AlertProvider)(nil)
 	_ AlertProvider = (*telegram.AlertProvider)(nil)
 	_ AlertProvider = (*twilio.AlertProvider)(nil)
+	_ AlertProvider = (*wecom.AlertProvider)(nil)
 )

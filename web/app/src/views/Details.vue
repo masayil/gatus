@@ -167,7 +167,7 @@ export default {
       return `${this.serverUrl}/api/v1/endpoints/${this.endpointStatus.key}/response-times/${duration}/badge.svg`;
     },
     generateResponseTimeChartImageURL() {
-      return `${this.serverUrl}/api/v1/endpoints/${this.endpointStatus.key}/response-times/24h/chart.svg`;
+      return `${this.serverUrl}/api/v1/endpoints/${this.endpointStatus.key}/response-times/7d/chart.svg`;
     },
     changePage(page) {
       this.currentPage = page;

@@ -14,7 +14,7 @@ import (
 	"github.com/wcharczuk/go-chart/v2/drawing"
 )
 
-const timeFormat = "3:04PM"
+const timeFormat = "01/02 15:04"
 
 var (
 	gridStyle = chart.Style{
